@@ -30,7 +30,7 @@ Task:
 ---
 
 # codewars-python
-###  go to `codewars/tranquil-coraniaid/src/`[assignment](https://github.com/bananeira/codewars/tranquil-coraniaid/src/assignment)
+###  go to `codewars/tranquil-coraniaid/src/`[assignment](https://github.com/bananeira/codewars/tree/main/tranquil-coraniaid/src/assignment)
 In this Python collection, following assignments from [codewars](https://www.codewars.com/) can be found:
 ## Rot13:
 Find the Kata [here](https://www.codewars.com/kata/530e15517bc88ac656000716).
