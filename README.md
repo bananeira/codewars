@@ -1,4 +1,4 @@
-# codewars-java ()
+# codewars-java
 ###  go to `codewars/methodical-megalodon/src/codewars/assignment/`
 In this Java collection, following assignments from [codewars](https://www.codewars.com/) can be found:
 ## Human readable duration format:
