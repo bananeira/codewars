@@ -1,5 +1,5 @@
 # codewars-java
-###  go to `codewars/methodical-megalodon/src/codewars/`[assignment](https://github.com/bananeira/codewars/methodical-megalodon/src/codewars/assignment)
+###  go to `codewars/methodical-megalodon/src/codewars/`[assignment](https://github.com/bananeira/codewars/tree/main/methodical-megalodon/src/codewars/assignment)
 In this Java collection, following assignments from [codewars](https://www.codewars.com/) can be found:
 ## Human readable duration format:
 Find the Kata [here](https://www.codewars.com/kata/52742f58faf5485cae000b9a).
