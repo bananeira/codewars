@@ -1,4 +1,5 @@
 # codewars-java ()
+###  go to `codewars/methodical-megalodon/src/codewars/assignment/`
 In this Java collection, following assignments from [codewars](https://www.codewars.com/) can be found:
 ## Human readable duration format:
 Task:
@@ -22,7 +23,8 @@ Task:
     and v2 (B's speed, integer > 0) and a lead g (integer > 0) how long will it take B to catch A?
 Find the Kata [here](https://www.codewars.com/kata/52742f58faf5485cae000b9a)
 
-# codewars-python ()
+# codewars-python
+###  go to `codewars/tranquil-coraniaid/src/assignment/`
 In this Python collection, following assignments from [codewars](https://www.codewars.com/) can be found:
 ## Rot13:
 Task:
