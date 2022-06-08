@@ -17,7 +17,7 @@ public class HumanReadableTime {
     }
 
     public static String makeReadableShort(int seconds) {
-        return ( seconds > 0 && seconds < 359999 )
+        return ( seconds >= 0 && seconds < 359999 )
             ? String.format("%02d:%02d:%02d",
             seconds / 3600,
             seconds / 60 % 60,
