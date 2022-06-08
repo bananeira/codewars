@@ -31,36 +31,23 @@ public class HumanReadableDurationFormat {
         };
         List<String> entries = new ArrayList<>();
 
-        if ( seconds == 1 || seconds % padding[0] == 1 ) {
-            dimensions[0] = "second";
-        } else {
-            dimensions[0] = "seconds";
-        }
-
+        if ( seconds == 1 || seconds % padding[0] == 1 ) { dimensions[0] = "second"; } else { dimensions[0] = "seconds"; }
 
         if ( seconds / scalingFromSec[1] == 1 || seconds / scalingFromSec[1] % padding[1] == 1 ) {
             dimensions[1] = "minute";
-        } else {
-            dimensions[1] = "minutes";
-        }
-
+        } else { dimensions[1] = "minutes"; }
+        
         if ( seconds / scalingFromSec[2] == 1 || seconds / scalingFromSec[2] % padding[2] == 1 ) {
             dimensions[2] = "hour";
-        } else {
-            dimensions[2] = "hours";
-        }
-
+        } else { dimensions[2] = "hours"; }
+        
         if ( seconds / scalingFromSec[3] == 1 || seconds / scalingFromSec[3] % padding[3] == 1 ) {
             dimensions[3] = "day";
-        } else {
-            dimensions[3] = "days";
-        }
-
+        } else { dimensions[3] = "days"; }
+        
         if ( seconds / scalingFromSec[4] == 1 ) {
             dimensions[4] = "year";
-        } else {
-            dimensions[4] = "years";
-        }
+        } else { dimensions[4] = "years"; }
 
         for (int i = dimensions.length; i-- > 0; ) {
             int i1 = ( i > 0 )
