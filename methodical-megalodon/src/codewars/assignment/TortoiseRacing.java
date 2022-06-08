@@ -9,8 +9,8 @@ public class TortoiseRacing {
 
             return new int[]{
                 (int) Math.floor(-lead/(v1-v2)),
-                (int) Math.floor((timeNeededHours * 3600) / 60 % 60),
-                (int) Math.floor((timeNeededHours * 3600) % 60)
+                (int) Math.floor(-lead/(v1-v2) * 3600 / 60 % 60),
+                (int) Math.floor(-lead/(v1-v2) * 3600 % 60)
             };
         }
     }
