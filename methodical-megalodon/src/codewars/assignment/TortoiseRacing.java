@@ -6,13 +6,11 @@ public class TortoiseRacing {
             return null;
         } else {
             float lead = (float) g;
-            float timeNeededHours = -lead/(v1-v2);
-            float timeNeededSec = timeNeededHours * 3600;
 
             return new int[]{
-                (int) Math.floor(timeNeededHours),
-                (int) Math.floor(timeNeededSec / 60 % 60),
-                (int) Math.floor(timeNeededSec % 60)
+                (int) Math.floor(-lead/(v1-v2)),
+                (int) Math.floor((timeNeededHours * 3600) / 60 % 60),
+                (int) Math.floor((timeNeededHours * 3600) % 60)
             };
         }
     }
