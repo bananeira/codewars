@@ -35,6 +35,15 @@ Task:
  	Write a function, which takes a non-negative integer (seconds) as input and returns the time
     in a human-readable format (HH:MM:SS).
 
+## Matrix addition:
+Find the Kata [here](https://www.codewars.com/kata/526233aefd4764272800036f).
+
+Task:
+
+ 	Write a function that accepts two square matrices (N x N two dimensional arrays),
+    and return the sum of the two. Both matrices being passed into the function will
+    be of size N x N (square), containing only integers.
+
 ---
 
 # codewars-python
@@ -49,3 +58,12 @@ Task:
     If there are numbers or special characters included in the string, they should be
     returned as they are. Only letters from the latin/english alphabet should be shifted,
     like in the original Rot13 "implementation".
+
+## Matrix addition:
+Find the Kata [here](https://www.codewars.com/kata/526233aefd4764272800036f).
+
+Task:
+
+ 	Write a function that accepts two square matrices (N x N two dimensional arrays),
+    and return the sum of the two. Both matrices being passed into the function will
+    be of size N x N (square), containing only integers.
