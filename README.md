@@ -27,6 +27,14 @@ Task:
  	Two tortoises named A and B must run a race. Given two speeds v1 (A's speed, integer > 0)
     and v2 (B's speed, integer > 0) and a lead g (integer > 0) how long will it take B to catch A?
 
+## Human readable time:
+Find the Kata [here](https://www.codewars.com/kata/52685f7382004e774f0001f7).
+
+Task:
+
+ 	Write a function, which takes a non-negative integer (seconds) as input and returns the time
+    in a human-readable format (HH:MM:SS).
+
 ---
 
 # codewars-python
