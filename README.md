@@ -43,6 +43,16 @@ Task:
  	Write a function that accepts two square matrices (N x N two dimensional arrays),
     and return the sum of the two. Both matrices being passed into the function will
     be of size N x N (square), containing only integers.
+    
+## Find the missing term in an Arithmetic Progression:
+Find the Kata [here](https://www.codewars.com/kata/52de553ebb55d1fca3000371/java).
+
+Task:
+
+ 	You are provided with consecutive elements of an Arithmetic Progression. There is
+    however one hitch: exactly one term from the original series is missing from the
+    set of numbers which have been given to you. The rest of the given series is the
+    same as the original AP. Find the missing term. 
 
 ---
 
