@@ -52,7 +52,16 @@ Task:
  	You are provided with consecutive elements of an Arithmetic Progression. There is
     however one hitch: exactly one term from the original series is missing from the
     set of numbers which have been given to you. The rest of the given series is the
-    same as the original AP. Find the missing term. 
+    same as the original AP. Find the missing term.
+
+## Bit Counting:
+Find the Kata [here](https://www.codewars.com/kata/526571aae218b8ee490006f4).
+
+Task:
+
+ 	Write a function that takes an integer as input, and returns the number of bits
+    that are equal to one in the binary representation of that number. You can guarantee
+    that input is non-negative.
 
 ---
 
